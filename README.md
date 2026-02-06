@@ -69,9 +69,11 @@ Ridge Regression provided the best balance between bias and variance, achieving 
 
 ---
 ## Datasets
+
 <a href="https://github.com/Kalai-2216/House_Price_Prediction/blob/4d60fe67bf5bbd7e4423d464cd5af49abbc93710/app/main.py">API File</a>
 <a href="https://github.com/Kalai-2216/House_Price_Prediction/blob/4d60fe67bf5bbd7e4423d464cd5af49abbc93710/.ipynb_checkpoints/House_price_prediction-checkpoint.ipynb">Juypter Notebook</a>
 <a href="https://github.com/Kalai-2216/House_Price_Prediction/blob/4d60fe67bf5bbd7e4423d464cd5af49abbc93710/Data/data_description.txt">Dataset column description file</a>
+
 ---
 ## Sample input
 {
@@ -81,28 +83,14 @@ Ridge Regression provided the best balance between bias and variance, achieving 
   "TotalBsmtSF": 900,
   "YearBuilt": 2005
 }
+
 - Sample Output
 {
   "predicted_house_price": 215432.78
 }
 
-house-price-prediction/
-│
-├── app/
-│   ├── main.py
-│   ├── ridge_house_price_model.pkl
-│   ├── model_features.pkl
-│   └── requirements.txt
-│
-├── notebooks/
-│   └── EDA_and_Modeling.ipynb
-│
-├── data/
-│   └── train.csv
-│
-└── README.md
 
----
+  
 
 ## Future Improvements
 
